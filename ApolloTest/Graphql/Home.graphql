@@ -1,0 +1,25 @@
+query HomeGetALL($paginate:Int){
+featuredStores(paginate:{page:$paginate}){
+items {
+...fragStoreAllDetails
+
+}
+  pageInfo{
+    ...fragPageInfo
+    
+  }
+}
+
+}
+
+
+fragment fragStoreAllDetails on Store {
+id
+name
+}
+
+fragment fragPageInfo on PageInfo {
+  page
+  totalCount
+  totalPages
+}

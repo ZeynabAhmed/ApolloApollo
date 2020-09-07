@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-ApolloTest/Pods-ApolloTest-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework
+${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework
